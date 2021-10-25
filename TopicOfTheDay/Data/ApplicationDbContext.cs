@@ -4,7 +4,7 @@ using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace TopicDay.Data
+namespace TopicOfTheDay.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

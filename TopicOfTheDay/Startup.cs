@@ -11,9 +11,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using TopicDay.Data;
+using TopicOfTheDay.Data;
 
-namespace TopicDay
+namespace TopicOfTheDay
 {
     public class Startup
     {
