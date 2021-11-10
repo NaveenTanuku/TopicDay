@@ -4,23 +4,52 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="pt-5" style="padding-top: 5rem !important">
-    <div class="cover-container pt-5 d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <main role="main" id="bearcat_alert">
-            <div class="row">
-                <div class="col-md-6 col-xs-6 col-sm-6">
-                    <img class="img-home" src="/adminPic.jpg">
-                </div>
-                <div class="col-md-6 col-xs-6 col-sm-6 right-home">
-                    <h1 class="h1">Java Exam</h1>
-                    <h3>Location: <span>VLK 111</span></h3>
-                    <h5 class="pt-2 pb-2">Date &amp; Time: <span> 5 PM 11/11/2021</span></h5>
-                    <div class="pt-3">
-                        <button class="btn btn-md btn-dark">See more</button>
-                    </div>
-                </div>
-            </div>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
 
-        </main>
-    </div>
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center">Product Card</h2>
+
+<div class="card">
+  <img src="/adminPic" alt="admin" style="width:100%">
+  <h1>Pay Fees</h1>
+  <p class="price">$5328.97</p>
+  <p>Please pay the fee today b y clicking the below payment link to avoid the fines</p>
+  <p><button>Pay Here</button></p>
 </div>
+
+</body>
+</html>
+
