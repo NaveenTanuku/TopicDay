@@ -18,10 +18,10 @@
 
 .price {
   color: grey;
-  font-size: 22px;
+  font-size: 15px;
 }
 
-.card button {
+.card a {
   border: none;
   outline: 0;
   padding: 12px;
@@ -30,7 +30,10 @@
   text-align: center;
   cursor: pointer;
   width: 100%;
-  font-size: 18px;
+  font-size: 12px;
+}
+.card img{
+    max-height:200px;
 }
 
 .card button:hover {
@@ -44,7 +47,7 @@
 
 <div class="card">
   <img src="/adminPic.jpg" alt="admin" style="width:100%">
-  <h1>Pay Fees</h1>
+  <h4>Pay Fees</h4>
   <p class="price">$5328.97</p>
   <p>Please pay the fee today by clicking the below payment link to avoid the fines</p>
   <p> <a href="https://secure.touchnet.com/C21165_tsa/web/welcome.jsp" class="button">Pay Here</a></p>
