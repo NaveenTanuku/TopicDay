@@ -7,4 +7,4 @@
 The repo has Progressive Web Application that has responsive design. The main goal of our application is to help the bearcats to get to know about the updates of different topics that are happening in the university and to check if they reached out to them.
 ## Stack
 
-We are developing the responsive Website with ***.Net Framework*** for Back-end and ***HTML,CSS,BootStrap*** for front-end with ***heroku*** as hostimg app.
+We are developing the responsive Website with ***.Net Framework*** for Back-end and ***HTML,CSS,BootStrap*** for front-end  and we are using ***MongoDD*** for database with ***heroku*** as hosting app.
