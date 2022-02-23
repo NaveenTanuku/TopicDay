@@ -1,5 +1,7 @@
 # TopicDay
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=NaveenTanuku_TopicDay&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=NaveenTanuku_TopicDay)
+
 # Topic Of The Day
 
  [Proposal Link](https://github.com/NaveenTanuku/Topic-of-the-Day-2B) for project Topic of the day [RFP link](https://github.com/Rohitreddz/Topic-of-the-Day)
