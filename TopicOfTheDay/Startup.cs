@@ -35,13 +35,13 @@ namespace TopicOfTheDay
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddRazorPages();
 
-            services.ConfigureSameSiteNoneCookies();
+            //services.ConfigureSameSiteNoneCookies();
             services
                 .AddAuth0WebAppAuthentication(options => {
                     options.Domain = Configuration["Auth0:Domain"];
                      options.ClientId = Configuration["Auth0:ClientId"];
                 });
-
+            services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
