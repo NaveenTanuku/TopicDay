@@ -1,6 +1,6 @@
 # TopicDay
 
-[!Code Quality](https://app.codacy.com/gh/NaveenTanuku/TopicDay/dashboard?branch=master)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/93bb651c35f74f4bb7e01ee61939dd20)](https://www.codacy.com/gh/NaveenTanuku/TopicDay/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NaveenTanuku/TopicDay&amp;utm_campaign=Badge_Grade)
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=NaveenTanuku_TopicDay&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=NaveenTanuku_TopicDay)
 
