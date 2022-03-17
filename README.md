@@ -1,5 +1,7 @@
 # TopicDay
 
+[!Code Quality](https://app.codacy.com/gh/NaveenTanuku/TopicDay/dashboard?branch=master)
+
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=NaveenTanuku_TopicDay&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=NaveenTanuku_TopicDay)
 
 # Topic Of The Day
