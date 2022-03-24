@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 350px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+        }
+
+        .price {
+            color: grey;
+            font-size: 15px;
+        }
+
+        .card a {
+            border: none;
+            outline: 0;
+            padding: 12px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 15px;
+        }
+
+        .card img {
+            max-height: 200px;
+        }
+
+        .card button:hover {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 style="text-align:center">Topic</h2>
+
+    <div class="card">
+        <img src="/adminPic.jpg" alt="admin" style="width:100%">
+        <h4>Pay Fees</h4>
+        <p class="price">$5328.97</p>
+        <p>Please pay the fee today by clicking the below payment link to avoid the fines</p>
+        <p> <a href="https://secure.touchnet.com/C21165_tsa/web/welcome.jsp" class="button">Pay Here</a></p>
+    </div>
+
+</body>
+</html>
+

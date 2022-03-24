@@ -1,0 +1,76 @@
+﻿@model TopicDay.ViewModels.LoginViewModel
+
+@{
+    ViewBag.Title = "User Login";
+}
+
+
+<div class="container-fluid ps-md-0">
+    <div class="row g-0">
+        <div class="col-md-8 col-lg-6">
+            <div class="login d-flex align-items-center py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9 col-lg-8 mx-auto">
+                            <h3 class="login-heading mb-auto">Welcome User!</h3>
+                            <p>Register or Login to see our exciting catalog </p>
+                            <!-- Sign In Form -->
+                            <form method="post">
+                                <div class="form-group">
+                                    <label asp-for="Email"></label>
+                                    <input asp-for="Email" class="form-control" />
+                                    <span asp-validation-for="Email" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label asp-for="Password"></label>
+                                    <input asp-for="Password" class="form-control" />
+                                    <span asp-validation-for="Password" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="form-check" style="margin-left:-25px">
+                                        <label asp-for="RemeberMe">
+                                            <input asp-for="RemeberMe" />
+                                            @Html.DisplayNameFor(m => m.RemeberMe)
+                                        </label>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-outline-dark">Login</button>
+                                <a asp-controller="account" asp-action="Register" role="button" class="btn btn-outline-dark" style="width:auto">SignUp</a>
+                            </form>
+                            <br>
+                            <h3>External Login/Registration using Social </h3>
+                            <hr />
+                            @{
+                                if (Model.ExternalLogins.Count == 0)
+                                {
+                                    <div>No external logins configured</div>
+                                }
+                                else
+                                {
+                                    <form method="post" asp-action="ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl">
+                                        <div>
+                                            @foreach (var provider in Model.ExternalLogins)
+                                            {
+                                                <button type="submit" class="btn btn-outline-dark"
+                                                        name="provider" value="@provider.Name"
+                                                        title="Log in using your @provider.DisplayName account">
+                                                    @provider.DisplayName
+                                                </button>
+                                            }
+                                        </div>
+                                    </form>
+                                }
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Sec
