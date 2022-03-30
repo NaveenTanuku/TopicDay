@@ -13,9 +13,10 @@ using TopicDay.Utilities;
 
 namespace TopicDay.Controllers
 {
-    public class AdministrationController : Controller
+    [Authorize(Roles ="Admin")]
+    public class AdministrationController: Controller
     {
-     
+        
        
             private readonly RoleManager<IdentityRole> roleManager;
             private readonly UserManager<ApplicationUser> userManager;

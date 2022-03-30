@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity.Validation;
+//using System.Data.Entity.Validation;
 using System.Diagnostics;
 using System.Linq;
 using System.Security.Claims;
@@ -29,7 +29,7 @@ namespace TopicDay.Controllers
         public async Task<IActionResult> Logout()
         {
             await signInManager.SignOutAsync();
-            return RedirectToAction("index", "home");
+            return RedirectToAction("Index", "home");
         }
 
         [HttpGet]
