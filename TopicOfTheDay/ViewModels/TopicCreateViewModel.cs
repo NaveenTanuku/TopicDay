@@ -15,7 +15,7 @@ namespace TopicDay.ViewModels
         public string Name { get; set; }
         public Available IsAvailable { get; set; }
 
-        public int NumberOfTopicsAvailable { get; set; }
+        public string Description { get; set; }
 
         
     }

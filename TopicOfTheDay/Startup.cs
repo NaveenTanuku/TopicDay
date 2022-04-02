@@ -85,7 +85,7 @@ namespace TopicDay
 
             app.UseMvc(routes =>
             {
-                routes.MapRoute("default", "{controller=Home}/{action=index}/{id?}");
+                routes.MapRoute("default", "{controller=Home}/{action=Welcome}/{id?}");
             });
         }
     }

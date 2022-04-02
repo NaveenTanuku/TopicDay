@@ -28,6 +28,23 @@ namespace TopicDay.Controllers
             return View();
         }
 
+        public IActionResult Topics()
+        {
+            return View();
+        }
+        public IActionResult Welcome()
+        {
+            return View();
+        }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+        public IActionResult ViewTopic()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
