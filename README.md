@@ -19,6 +19,11 @@ The repo has Progressive Web Application that has responsive design. The main go
 | [**Naveen Tanuku**](https://github.com/NaveenTanuku)   | Back-End-Developer        | S542000@nwmissouri.edu      |
 
 
+## External Requirement:
+
+[Microsoft Visual Studio (2019)](https://visualstudio.microsoft.com/downloads/): Install the Community version.<br>
+[Heroku Account](https://id.heroku.com/login): If you wish to deploy on heroku please get an account for hosting platform <br>
+
 ## Stack
 
 We are developing the responsive Website with ***.Net Framework*** for Back-end and ***HTML,CSS,BootStrap*** for front-end  and we are using ***MongoDD*** for database with ***heroku*** as hosting app.
