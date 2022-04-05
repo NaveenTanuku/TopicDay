@@ -24,6 +24,11 @@ The repo has Progressive Web Application that has responsive design. The main go
 [Microsoft Visual Studio (2019)](https://visualstudio.microsoft.com/downloads/): Install the Community version.<br>
 [Heroku Account](https://id.heroku.com/login): If you wish to deploy on heroku please get an account for hosting platform <br>
 
+## Deployment
+
+• We made it easier for the application to be **deployed** automatically When you make any **changes** to the repository, the **build** will start **deploying** to Heroku **automatically**. </br>
+• If you make any changes to a repo and they **aren't** automatically deployed, try **manually** deploying them to see if they show up in the app.
+
 ## Stack
 
 We are developing the responsive Website with ***.Net Framework*** for Back-end and ***HTML,CSS,BootStrap*** for front-end  and we are using ***MongoDD*** for database with ***heroku*** as hosting app.
