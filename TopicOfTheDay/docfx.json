@@ -4,9 +4,9 @@
       "src": [
         {
           "files": [
-            "*.csproj"
+            "**.csproj"
           ],
-          "src": "*.csproj"
+          "src": "C:\\Users\\S542000\\Documents\\TopicDay\\TopicOfTheDay"
         }
       ],
       "dest": "api",
