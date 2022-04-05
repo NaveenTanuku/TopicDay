@@ -29,6 +29,12 @@ The repo has Progressive Web Application that has responsive design. The main go
 • We made it easier for the application to be **deployed** automatically When you make any **changes** to the repository, the **build** will start **deploying** to Heroku **automatically**. </br>
 • If you make any changes to a repo and they **aren't** automatically deployed, try **manually** deploying them to see if they show up in the app.
 
+## Application Documentation:
+[DocFX](https://naveentanuku.github.io/TopicOfTheDay-DocFX) <br>
+[User Guide](https://naveentanuku.github.io/TopicOfTheDay-doc) <br>
+[Swagger](https://naveentanuku.github.io/TopicOFTheDay-Swagger)
+
+
 ## Stack
 
 We are developing the responsive Website with ***.Net Framework*** for Back-end and ***HTML,CSS,BootStrap*** for front-end  and we are using ***MongoDD*** for database with ***heroku*** as hosting app.
