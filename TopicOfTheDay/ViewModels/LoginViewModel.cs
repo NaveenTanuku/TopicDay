@@ -24,5 +24,10 @@ namespace TopicDay.ViewModels
 
         // AuthenticationScheme is in Microsoft.AspNetCore.Authentication namespace
         public IList<AuthenticationScheme> ExternalLogins { get; set; }
+
+        public void onGet()
+        {
+
+        }
     }
 }

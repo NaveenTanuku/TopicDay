@@ -1,4 +1,6 @@
 using NUnit.Framework;
+using Microsoft.Extensions.Logging;
+using System;
 
 namespace Test_TopicOfTheDay
 {
